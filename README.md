@@ -1,12 +1,18 @@
 # EspTouch for Android
-To configure network for Esp8266/Esp32 devices
+This APP is used to configure ESP devices to connect target AP.  
+The devices need run smart config: [esp-idf](https://github.com/espressif/esp-idf/tree/master/examples/wifi/smart_config) or [ESP8266_RTOS_SDK](https://github.com/espressif/ESP8266_RTOS_SDK/tree/master/examples/wifi/smart_config)  
+
+**Note: EspTouchV2 is not compatible with EspTouch**
 
 ## Licence
-- See [Licence](ESPRESSIF_MIT_LICENSE_V1.LICENSE)
+- See [Licence](ESPRESSIF_MIT_LICENSE)
 
 ## Version Log
-- See [Log](Log.md)
+- See [Log](log/log-en.md)
 
-## Jar Release
-- See [libs](releases/libs)  
-    - If you don't want use [esptouch](esptouch) module, copy the jar to your own project.
+## Modules
+- EspTouch: [esptouch](esptouch)
+- EspTouchV2: [esptouch-v2](esptouch-v2)
+
+## Releases
+- See [releases](https://github.com/EspressifApp/EsptouchForAndroid/releases)
